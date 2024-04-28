@@ -15,10 +15,8 @@
 }
 
 .header h1 {
-  /* margin-left: 5rem; */
   font-size: 70px;
   font-weight: 900;
-  /* color: #241274; */
 }
 
 .header span {
@@ -28,28 +26,20 @@
   font-weight: 900;
 }
 
-/* .row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-} */
-
 .row img {
   width: 30%;
   height: 80vh;
   margin-right: 10%;
   border-radius: 20%;
-  border: 1px solid #4e3e92;
+  border: 1px solid #cf23cf;
   position: relative;
   z-index: 1;
   float: right;
 }
 
 h2 {
-  /* width: 100%; */
   margin: 0;
   padding: 0;
-  /* position: absolute;  */
   font-size: 70px;
   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
   -webkit-text-fill-color: transparent;
@@ -74,7 +64,7 @@ h2 {
   height: 3px;
   width: 0;
   background: linear-gradient(to right, #fcac77, #eedd44);
-  
+
   position: absolute;
   left: 0;
   transition: 0.5s;
@@ -107,11 +97,11 @@ h2 {
 
 .Projects-section {
   width: 96%;
-  height: 100vh;
+  height: 300vh;
   margin-left: 3rem;
 }
 
-.project_heading{
+.project_heading {
   background: linear-gradient(to right, #fcac77, #eedd44);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -123,7 +113,6 @@ h2 {
 }
 
 .first_project {
-  /* position: relative; */
   border-radius: 20px;
   height: 100%;
   width: 40%;
@@ -143,9 +132,7 @@ h2 {
 }
 
 .second_project {
-  /* position: relative; */
   margin-top: 26%;
-  /* top: 50%; */
   height: 100%;
   border-radius: 20px;
   width: 40%;
@@ -166,7 +153,6 @@ h2 {
   box-shadow: 0 0 20px #cf23cf;
 }
 .Projects-section p {
-  /* width: 40%; */
   letter-spacing: 2px;
 }
 
@@ -185,12 +171,9 @@ h2 {
   height: 40vh;
   background-color: #cf23cf;
   width: 1px;
-  
-  /* z-index: 10; */
 }
 
 .vertical_bar .horizontal_bar {
-  /* position: absolute; */
   width: 100px;
   height: 1px;
   float: right;
@@ -210,13 +193,11 @@ h2 {
   height: 1px;
   float: right;
   top: 40%;
-  background:   #cf23cf;
-  
+  background: #cf23cf;
   -webkit-box-shadow: 0 0 100px #4e3e92;
   -moz-box-shadow: 0 0 100px #4e3e92;
   box-shadow: 0 0 100px #4e3e92;
   transform: rotate(180deg);
-  /* margin-right: 100px; */
   z-index: 1;
 }
 
@@ -235,12 +216,24 @@ h2 {
   z-index: 1;
 }
 
+.internship {
+  width: 100%;
+  height: 100vh;
+}
+
+.internship h1 {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 900;
+  font-size: 70px;
+}
+
 .contact {
   width: 90%;
   height: 100vh;
   display: flex;
   position: relative;
-  margin-top: 100%;
   margin-left: 3rem;
 }
 
@@ -260,7 +253,7 @@ h2 {
   font-size: 25px;
 }
 
-.sub-title{
+.sub-title {
   font-size: 70px;
   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
   -webkit-text-fill-color: transparent;
@@ -284,32 +277,35 @@ h2 {
   margin-right: 15px;
 }
 
-.btn{
+.btn {
   text-decoration: none;
-  background: #4e3e92;
+  background: #cf23cf;
   padding: 20px 40px;
   border-radius: 10px;
   transition: 0.5s;
   margin-top: 10px;
 }
 
-.btn:hover{
-background: #cf23cf;
+.btn:hover {
+  -webkit-box-shadow: 0 0 20px #cf23cf;
+  -moz-box-shadow: 0 0 20px #cf23cf;
+  box-shadow: 0 0 20px #cf23cf;
 }
 
-form .btn.btn2{
-  display: inline-block ;
+form .btn.btn2 {
+  display: inline-block;
   cursor: pointer;
   border: 0;
   padding: 20px 70px;
   font-size: 18px;
 }
 
-.contact-right form{
+.contact-right form {
   width: 100%;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   width: 100%;
   border: 0;
   outline: none;
@@ -319,4 +315,22 @@ form input, form textarea{
   border-radius: 6px;
   margin: 15px 0;
   padding: 15px;
+  -webkit-box-shadow: 0 0 10px #262626;
+  -moz-box-shadow: 0 0 10px #262626;
+  box-shadow: 0 0 10px #262626;
+  transition: 0.5s;
+}
+
+form input:hover {
+  -webkit-box-shadow: 0 0 20px #262626;
+  -moz-box-shadow: 0 0 20px #262626;
+  box-shadow: 0 0 20px #262626;
+}
+
+form input,
+form textarea:hover {
+  background: #262626;
+  -webkit-box-shadow: 0 0 20px #262626;
+  -moz-box-shadow: 0 0 20px #262626;
+  box-shadow: 0 0 20px #262626;
 }
